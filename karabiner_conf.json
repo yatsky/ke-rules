@@ -1,0 +1,29 @@
+{
+  "title": "Command + f1 to Command + end",
+  "rules": [
+    {
+      "description": "Moves cursor to the of the file",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f1",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "end",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
